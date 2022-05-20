@@ -1,0 +1,16 @@
+connectors:
+  slack:
+    # required
+    bot-token: "xoxb-3544886101526-3545937860198-4TioW1sNhIVVsOkvXV4SfD6y"
+    # optional
+    socket-mode: false # defaul true. *
+    app-token: "xapp-1-A03FTP54J6T-3537971144663-337c9a2a8e4c9541f8f768bc7e8ed4e529c05070e942a7cb682ad432d2ccc77b" # socket-mode needs to be true
+    bot-name: "mybot" # default "opsdroid" **
+    icon-emoji: ":smile:" # default ":robot_face:" **
+    default-room: "#random" # default "#general"
+    start-thread: false # default false. if true, opsdroid will start a thread when replying to a message
+web:
+    base-url: https://new-actors-drop-150-220-52-170.loca.lt
+skills:
+  hello: {}
+welcome-message: true
